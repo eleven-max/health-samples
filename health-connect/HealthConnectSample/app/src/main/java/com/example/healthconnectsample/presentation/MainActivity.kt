@@ -18,6 +18,7 @@ package com.example.healthconnectsample.presentation
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import com.example.sahha.SahhaDemoActivity
 
 /**
  * The entry point into the sample.
@@ -31,5 +32,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             HealthConnectApp(healthConnectManager = healthConnectManager)
         }
+
+        SahhaDemoActivity.start(this)
     }
 }
