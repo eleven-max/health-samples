@@ -102,4 +102,12 @@ dependencies {
     coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.3"
 
     implementation 'com.github.sahha-ai:sahha-android:+'
+
+    implementation platform("com.rookmotion.android:rook-bom:0.0.16")
+    implementation 'com.rookmotion.android:rook-health-connect'
+
+    implementation 'com.rookmotion.android:rook-auth:0.4.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
+
+    implementation 'com.rookmotion.android:rook-sdk:0.5.2'
 }
